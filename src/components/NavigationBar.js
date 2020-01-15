@@ -15,21 +15,9 @@ const appBarStyle = {
   zIndex: 1
 };
 
-const HtmlButton = ({ onClick }) => (
-  <IconButton onClick={onClick}>
-    <IconHtml color="white" />
-  </IconButton>
-);
-
 const PdfButton = ({ onClick }) => (
   <IconButton onClick={onClick}>
     <IconPdf color="white" />
-  </IconButton>
-);
-
-const WordButton = ({ onClick }) => (
-  <IconButton onClick={onClick}>
-    <IconDoc color="white" />
   </IconButton>
 );
 

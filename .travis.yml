@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "11"
 script:
-  - npm run build
+  - CV_URL_PDF=$CV_URL_PDF npm run build
 deploy:
   provider: pages
   local_dir: build
