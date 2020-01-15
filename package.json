@@ -22,7 +22,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-html && npm run build-pdf && npm run build-seo && npm run build-css && react-scripts build",
+    "build": "npm run build-seo && npm run build-css && react-scripts build",
     "build-seo": "node buildSeo.js",
     "test": "CI=true react-scripts test env=jsdom",
     "eject": "react-scripts eject"
