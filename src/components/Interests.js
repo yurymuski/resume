@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 import Gallery from "./Gallery";
-import camping from "../images/camping.gif";
-import programming from "../images/programming.jpg";
-import sleeping from "../images/sleeping.jpg";
-import snowboarding from "../images/snowboarding.gif";
 
 export default class Interests extends Component {
   constructor(props) {
@@ -20,15 +16,7 @@ export default class Interests extends Component {
   }
 
   extractImage = name => {
-    return name === "Sleeping"
-      ? sleeping
-      : name === "Programming"
-      ? programming
-      : name === "Sport"
-      ? snowboarding
-      : name === "Camping"
-      ? camping
-      : `https://loremflickr.com/320/240/${name}`;
+    return `https://loremflickr.com/320/240/${name}`;
   };
 
   render() {

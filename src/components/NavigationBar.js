@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import AppBar from "material-ui/AppBar";
 import IconButton from "material-ui/IconButton";
-import IconHtml from "./IconHtml";
-import IconDoc from "./IconDoc";
 import IconPdf from "./IconPdf";
 
 import BreadCrumb from "./BreadCrumb";
@@ -28,9 +26,7 @@ export default class NavigationBar extends Component {
 
   renderDownloadLinks = () => (
     <div>
-      <HtmlButton onClick={this.handleHtmlClick} />
       <PdfButton onClick={this.handlePdfClick} />
-      <WordButton onClick={this.handleWordClick} />
     </div>
   );
 
