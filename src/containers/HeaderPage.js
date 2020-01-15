@@ -3,14 +3,9 @@ import React, { Component } from "react";
 import NavigationBar from "../components/NavigationBar";
 
 export default class HeaderPage extends Component {
-  handleOpenHtml = () =>
-    window.open(`${process.env.PUBLIC_URL}/cv.html`, "_blank");
 
   handleOpenPdf = () =>
-    window.open(`${process.env.PUBLIC_URL}/cv.pdf`, "_blank");
-
-  handleOpenWord = () =>
-    window.open(`${process.env.PUBLIC_URL}/cv.docx`, "_blank");
+    window.open(`${process.env.CV_URL_PDF}`, "_blank");
 
   render() {
     return (
