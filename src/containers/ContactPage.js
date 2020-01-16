@@ -10,9 +10,9 @@ export default class ContactPage extends Component {
     loading: false
   };
 
-  handleSubmit = ({ to, from, message }) => {
+  handleSubmit = ({ from, message }) => {
     this.setState({ loading: true });
-    fetch(`https://formspree.io/${to}`, {
+    fetch(`https://formspree.io/${process.env.REACT_APP_FORMSPREE_ID}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ from, message })
