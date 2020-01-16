@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Yury Muski",
-    "label": "Senior DevOps Tools Engineer",
-    "picture": "https://media.licdn.com/dms/image/C5603AQGsBHPjvlWAVg/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=r2ltKozYaWIqsWnIfAqNb4TWXz4BloKlHwADVrrNZ8I",
+    "label": "SRE/Devops",
+    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGsBHPjvlWAVg/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&t=R1x23Ko_EF7Ie3cHsmtIet9wPzDyOzC75PaPIb-4Szg",
     "email": "muski.yury@gmail.com",
     "phone": "",
-    "website": "https://yurymuski.github.io/resume",
+    "website": "https://yurets.pro",
     "summary": "Team-player, with good communication skills. \nStrong ability to maintain and troubleshoot issues.\nLPI certified DevOps Tools Engineer. AWS Certified Solutions Architect Associate.",
     "location": {
       "city": "Minsk",
@@ -148,11 +148,7 @@
       "website": "",
       "startDate": "2014-04-01",
       "summary": "Maintenance of IT environment in medical organizations. Installed and configured DNS, DHCP, Firewall (Kerio Control), Terminal server, MS SQL Server. Organized network infrastructure, configured Cisco, D-link, TP-link. Supported medical software based on MS SQL database",
-      "highlights": [
-        "DNS",
-        "DHCP",
-        "MS SQL"
-      ],
+      "highlights": ["DNS", "DHCP", "MS SQL"],
       "endDate": "2016-06-01"
     }
   ],
@@ -209,30 +205,22 @@
     {
       "name": "Linux",
       "level": "",
-      "keywords": [
-        "5 years"
-      ]
+      "keywords": ["5 years"]
     },
     {
       "name": "Ansible",
       "level": "",
-      "keywords": [
-        "3 years"
-      ]
+      "keywords": ["3 years"]
     },
     {
       "name": "Docker",
       "level": "",
-      "keywords": [
-        "3 years"
-      ]
+      "keywords": ["3 years"]
     },
     {
       "name": "AWS",
       "level": "",
-      "keywords": [
-        "2 years"
-      ]
+      "keywords": ["2 years"]
     }
   ]
 }
