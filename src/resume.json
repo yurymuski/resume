@@ -2,11 +2,11 @@
   "basics": {
     "name": "Yury Muski",
     "label": "SRE/Devops",
-    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGsBHPjvlWAVg/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&t=R1x23Ko_EF7Ie3cHsmtIet9wPzDyOzC75PaPIb-4Szg",
+    "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQGurLVu-MaL4Q/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&t=9Gh4EKlv3tXewNre6k5zHdoKrXCoo6N2Wh1cfxxaVhc",
     "email": "muski.yury@gmail.com",
     "phone": "",
     "website": "https://yurets.pro",
-    "summary": "Team-player, with good communication skills. \nStrong ability to maintain and troubleshoot issues.\nLPI certified DevOps Tools Engineer. AWS Certified Solutions Architect Associate.",
+    "summary": "LPI certified DevOps Tools Engineer. AWS Certified Solutions Architect Associate. \nTeam-player, with good communication skills. \nStrong ability to maintain and troubleshoot issues.",
     "location": {
       "city": "Minsk",
       "region": "Belarus",
@@ -22,16 +22,25 @@
         "network": "LinkedIn",
         "username": "yury-muski",
         "url": "https://www.linkedin.com/in/yury-muski"
+      },
+      {
+        "network": "Telegram",
+        "username": "@yury_muski"
+      },
+      {
+        "network": "Instagram",
+        "username": "yury_muski",
+        "url": "https://www.instagram.com/yury_muski/"
       }
     ]
   },
   "work": [
     {
       "company": "Big Data Technologies",
-      "position": "Senior DevOps Engineer",
+      "position": "Senior SRE / DevOps",
       "website": "",
       "startDate": "2018-09-01",
-      "summary": "AWS infra architecture and setup",
+      "summary": "AWS infra architecture; Migration to AWS from DO; Full Devops Stack setup: CI/CD; Configuration Management; Monitoring/Alerting; Logging; NodeJS, PHP and GO apps support",
       "highlights": [
         "Terraform",
         "Ansible",
@@ -48,9 +57,6 @@
         "Kafka",
         "Python",
         "Bash scripting",
-        "NodeJS",
-        "PHP",
-        "GO apps support",
         "Redis",
         "Mysql",
         "Mongo",
@@ -62,15 +68,14 @@
       "position": "Senior DevOps Engineer",
       "website": "",
       "startDate": "2018-07-01",
-      "summary": "Shinyproxy for R apps",
+      "summary": "Infra architecture; Setup from scratch; R apps support",
       "highlights": [
-        "Shinyproxy for R apps",
-        "CM: Ansible",
-        "CD: Jenkins",
+        "Shinyproxy",
+        "Ansible",
+        "Jenkins",
         "Nginx",
         "Docker",
-        "Keycloak",
-        "Jenkins"
+        "Keycloak"
       ],
       "endDate": "2018-10-01"
     },
@@ -79,14 +84,16 @@
       "position": "Senior DevOps Engineer",
       "website": "",
       "startDate": "2018-05-01",
-      "summary": "",
+      "summary": "Development of CI/CD; Environment support; Ruby apps support",
       "highlights": [
-        "CM: Ansible and Capistrano",
-        "CD: Jenkins",
-        "Monitoring via Cadvisor",
-        "Prometheus and Grafana",
-        "Docker Swarm cluster for RoR apps",
-        "Linux troubleshooting and maintenance"
+        "Ansible",
+        "Capistrano",
+        "Jenkins",
+        "Cadvisor",
+        "Prometheus",
+        "Grafana",
+        "Docker Swarm",
+        "Linux"
       ],
       "endDate": "2018-10-01"
     },
@@ -97,13 +104,13 @@
       "startDate": "2017-10-01",
       "summary": "",
       "highlights": [
-        "CM: Puppet",
+        "Puppet",
         "Terraform",
-        "Linux troubleshooting and maintenance ",
-        "ElasticSearch + Logstash + Kafka + Kibana",
-        "Mesos platform for Storm topologies",
-        "WebPlatform ( IIS + HAProxy + AWS Route53 )",
-        "ChatOps (Slack + Hubot)"
+        "Linux",
+        "ELK",
+        "Mesos",
+        "WebPlatform",
+        "Hubot"
       ],
       "endDate": "2018-05-01"
     },
@@ -115,9 +122,10 @@
       "summary": "",
       "highlights": [
         "AWS",
-        "CI: Jenkins DSL for Java spring boot apps",
-        "CD: Spinnaker",
-        "CM: Ansible and Cloudformation"
+        "Jenkins",
+        "Spinnaker",
+        "Ansible",
+        "Cloudformation"
       ],
       "endDate": "2017-10-01"
     },
@@ -126,9 +134,10 @@
       "position": "Build Engineer",
       "website": "",
       "startDate": "2016-06-01",
-      "summary": "",
+      "summary": "DevOps; CI/CD and Continuous Improvement; Configuration Management; Maintenance and Support",
       "highlights": [
-        "TFS; Jenkins",
+        "TFS",
+        "Jenkins",
         "Ansible",
         "Nexus",
         "Powershell",
@@ -136,9 +145,7 @@
         "Tomcat",
         "IIS",
         "Ant",
-        "Msbuild",
-        "350+ servers",
-        "CICD via TFS and Jenkins for JAVA.NET projects"
+        "Msbuild"
       ],
       "endDate": "2017-10-01"
     },
@@ -148,7 +155,7 @@
       "website": "",
       "startDate": "2014-04-01",
       "summary": "Maintenance of IT environment in medical organizations. Installed and configured DNS, DHCP, Firewall (Kerio Control), Terminal server, MS SQL Server. Organized network infrastructure, configured Cisco, D-link, TP-link. Supported medical software based on MS SQL database",
-      "highlights": ["DNS", "DHCP", "MS SQL"],
+      "highlights": ["DNS", "DHCP", "MS SQL", "MS Server"],
       "endDate": "2016-06-01"
     }
   ],
@@ -181,7 +188,7 @@
       "name": "Dogs"
     },
     {
-      "name": "Taxi"
+      "name": "Conference"
     },
     {
       "name": "Hockey"
@@ -210,15 +217,25 @@
     {
       "name": "Ansible",
       "level": "",
-      "keywords": ["3 years"]
+      "keywords": ["4 years"]
     },
     {
       "name": "Docker",
       "level": "",
-      "keywords": ["3 years"]
+      "keywords": ["4 years"]
     },
     {
       "name": "AWS",
+      "level": "",
+      "keywords": ["3 years"]
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": ["2 years"]
+    },
+    {
+      "name": "Kubernetes",
       "level": "",
       "keywords": ["2 years"]
     }
