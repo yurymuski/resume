@@ -25,7 +25,8 @@
       },
       {
         "network": "Telegram",
-        "username": "@yury_muski"
+        "username": "@yury_muski",
+        "url": "https://t.me/yury_muski"
       },
       {
         "network": "Instagram",
@@ -102,14 +103,15 @@
       "position": "Systems Engineer (DevOps)",
       "website": "",
       "startDate": "2017-10-01",
-      "summary": "",
+      "summary": "Dedicated Devops team member; Logging as a service on ELK + kafka; ChatOps; Mesos Cluster support; Weblatform support",
       "highlights": [
         "Puppet",
         "Terraform",
         "Linux",
         "ELK",
         "Mesos",
-        "WebPlatform",
+        "IIS",
+        "HAProxy",
         "Hubot"
       ],
       "endDate": "2018-05-01"
@@ -119,7 +121,7 @@
       "position": "CNO Engineer (Cloud Native Operations)",
       "website": "",
       "startDate": "2017-04-01",
-      "summary": "",
+      "summary": "CI/CD on AWS; Configuration Management; Environment support; Java Spring apps support",
       "highlights": [
         "AWS",
         "Jenkins",
@@ -134,7 +136,7 @@
       "position": "Build Engineer",
       "website": "",
       "startDate": "2016-06-01",
-      "summary": "DevOps; CI/CD and Continuous Improvement; Configuration Management; Maintenance and Support",
+      "summary": "CI/CD and Continuous Improvement; Configuration Management; Maintenance and Support",
       "highlights": [
         "TFS",
         "Jenkins",
