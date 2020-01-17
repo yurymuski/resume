@@ -91,96 +91,21 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 ## Steps to use
 
 1. `Fork` this repository.
-2. Deploy app with `github-pages` + `travis`, i.e. sync github account with travis.
-   1. Go to https://github.com/settings/tokens and generate new token with `repo` scope. (With any name like `travis-resume`)
-   2. Copy this access token.
-   3. Login via github to https://travis-ci.org/.
-   4. Click `+` and `Sync account`.
-   5. Find and enable `resume` repository in travis repositories list.
-   6. Click `resume` settings in Travis.
-   7. In section `Environment Variables` add input name `GITHUB_TOKEN`, input access token as value and click `Add`. (Don't enable display value in build logs!)
-   8. Click `More options` -> `Trigger build` -> `Trigger custom build` in Travis and wait for a couple of minutes.
-   9. Go to https://*yourgithubaccount*.github.io/resume and you'll see resume of Aliaksei Saroka.
-3. Change `resume.json`
-   1. Go to https://github.com/*YourGithubAccount*/resume/blob/master/src/resume.json
-   2. Click `Edit` and change to smth you want (e.g. [paste this](#resume-example)).
-   3. Click `Commit Changes`, wait for 1-2 minutes and open https://*yourgithubaccount*.github.io/resume.
-4. Sign up to https://formspree.io/ to get emails from `Contact` form.
-
-P.S. `SEO` and `cv.html` are automatically applied.
-
-P.S.2. Unfortunately `cv.pdf` and `cv.docx` are not auto generated... Try [Resume Fodder](https://resumefodder.com) + [CloudConvert](https://cloudconvert.com) and update `public/cv.docx` and `public/cv.pdf` files if you need that.
-
-## Linkedin tutorial
-
-1. Update LinkedIn profile.
-2. Either export LinkedIn data and use [linkedin-to-resume-json](https://jmperezperez.com/linkedin-to-json-resume/)/[resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
-3. Generate Standard `cv.doc` by [Resume Fodder](https://resumefodder.com) (upload updated `resume.json` and download `cv.doc`).
-4. Convert `cv.doc` to `cv.docx` and `cv.pdf` by [CloudConvert](https://cloudconvert.com).
-5. If you want to change structure/design in docx/pdf, upload docx to [Google Docs](https://docs.google.com/document/d/1wbSc1S7JoPLY9iR4js4_gAePr65JO-SWYp7DaJ_QaYc), change and export to PDF/DOCX.
-6. Put converted files to `public` folder as `public/cv.docx` and `public/cv.pdf`.
-7. `git push` and check build/deployment status on [travis](https://travis-ci.org/lehaSVV2009/resume) (`cv.html` will be updated automatically).
-
-## Getting Started
-
-<a href="http://lehasvv2009.github.io/resume" target="_blank">Live demo</a>
-
-Made with HATE :smiling_imp: (I'm tired of phrases 'Made with love')
+2. Update `src/resume.json`
+3. Create PDF CV file and set link in `REACT_APP_CV_URL_PDF` env var.
+4. Sign up to https://formspree.io/ to get emails from `Contact` form. Set `REACT_APP_FORMSPREE_ID` env var.
+5. Link `Dockerhub` with your repo to get autobuild docker image.
+6. Deploy Docker image as you like.
 
 ## Installing
 
 ```
-$ git clone https://github.com/lehaSVV2009/resume.git
+docker build -t resume .
+docker run -it -p 3000:3000  -e REACT_APP_FORMSPREE_ID=test -e REACT_APP_CV_URL_PDF=https://some.url --rm resume
 ```
 
-```
-$ yarn
-$ yarn start
-```
 
-or
 
-```
-$ npm install
-$ npm start
-```
-
-## Running tests
-
-```
-$ yarn test
-```
-
-or
-
-```
-$ npm test
-```
-
-## Deployment
-
-No magic, build folder contains only static resources - html, js, css, images.
-
-Travis deploys build folder on Github Pages.
-
-Configurations are here - `.travis.yml`.
-
-## Built With
-
-- [Travis](https://travis-ci.org/) CI and deployment
-- [Yarn](https://yarnpkg.com/) builds web client
-
-## Contributing
-
-Help wanted :smile:
-
-If you want to contribute - just create issues and/or pull requests and let's discuss there. No hard rules.
-
-## Versioning
-
-No stress about versioning :smile:
-
-Application is still too small for it.
 
 ## Authors
 
