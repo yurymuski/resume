@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Gallery from "./Gallery";
+import sleeping from "../images/sleeping.jpg";
 
 export default class Interests extends Component {
   constructor(props) {
@@ -16,7 +17,11 @@ export default class Interests extends Component {
   }
 
   extractImage = name => {
-    return `https://loremflickr.com/320/240/${name}`;
+    return name === "Sleeping"
+    ? sleeping
+    : name === "Travelling"
+    ? `https://loremflickr.com/320/240/travel`
+    : `https://loremflickr.com/320/240/${name}`;
   };
 
   render() {
