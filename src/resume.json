@@ -37,6 +37,24 @@
   },
   "work": [
     {
+      "company": "Scorum",
+      "position": "Lead DevOps Engineer / SRE",
+      "website": "",
+      "startDate": "2020-03-15",
+      "summary": "",
+      "highlights": [
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "ELK",
+        "Helm",
+        "Gitlab",
+        "Nginx"
+      ]
+    },
+    {
       "company": "Big Data Technologies",
       "position": "Senior SRE / DevOps",
       "website": "",
