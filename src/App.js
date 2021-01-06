@@ -8,6 +8,7 @@ import Fragment from "./components/Fragment";
 import HeaderPage from "./containers/HeaderPage";
 import HomePage from "./containers/HomePage";
 import InterestsPage from "./containers/InterestsPage";
+import PlaylistPage from "./containers/PlaylistPage";
 import ProjectsPage from "./containers/ProjectsPage";
 import SkillsPage from "./containers/SkillsPage";
 
@@ -33,6 +34,10 @@ const breadCrumb = [
   {
     name: "Interests",
     anchor: "interests-page"
+  },
+  {
+    name: "Playlist",
+    anchor: "playlist-page"
   },
   {
     name: "Contact",
@@ -67,7 +72,10 @@ export default class App extends Component {
           <Fragment color="#473a56" tag={breadCrumb[4].anchor}>
             <InterestsPage interests={resume.interests} />
           </Fragment>
-          <Fragment tag={breadCrumb[5].anchor}>
+          <Fragment color="#F7F5E6" tag={breadCrumb[5].anchor}>
+            <PlaylistPage playlist={resume.playlist} />
+          </Fragment>
+          <Fragment tag={breadCrumb[6].anchor}>
             <ContactPage email={resume.basics.email} />
           </Fragment>
           <Fragment color="#473a56" footer>
