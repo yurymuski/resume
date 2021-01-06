@@ -3,7 +3,7 @@ WORKDIR /opt/app
 
 COPY . .
 
-RUN npm install
+RUN npm install --only=prod
 
 FROM node:lts-alpine
 WORKDIR /opt/app
