@@ -36,7 +36,7 @@ const breadCrumb = [
     anchor: "interests-page"
   },
   {
-    name: "Playlist",
+    name: "Tech Talks (RU)",
     anchor: "playlist-page"
   },
   {
