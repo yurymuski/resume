@@ -40,7 +40,7 @@
       "position": "Lead DevOps Engineer / SRE",
       "website": "",
       "startDate": "2020-03-15",
-      "summary": "Kubernetes based full GitOps flow for several projects (Flux CD); 100% Infrastructure as code (IaC); Production NodeJS and GO apps support",
+      "summary": "Kubernetes based full GitOps flow for several projects (Flux CD). 100% Infrastructure as code (IaC). Production NodeJS and GO apps support.",
       "highlights": [
         "Kubernetes",
         "Flux CD",
@@ -60,7 +60,7 @@
       "position": "Senior SRE / DevOps",
       "website": "",
       "startDate": "2018-09-01",
-      "summary": "AWS infra architecture; Migration to AWS from DO;  from scratch: CI/CD; Configuration Management; Monitoring/Alerting; Logging; Production NodeJS, PHP and GO apps support",
+      "summary": "Full DevOps Stack setup from scratch: CI/CD; CM; Monitoring/Alerting; Logging. AWS infra architecture (IaC). Cloud Migration from DO to AWS. Production NodeJS, PHP and GO apps support.",
       "highlights": [
         "Terraform",
         "Ansible",
@@ -88,7 +88,7 @@
       "position": "Senior DevOps Engineer",
       "website": "",
       "startDate": "2018-07-01",
-      "summary": "Infra architecture; Setup from scratch; R apps support",
+      "summary": "Infra architecture from scratch. R apps support.",
       "highlights": [
         "Shinyproxy",
         "Ansible",
@@ -104,7 +104,7 @@
       "position": "Senior DevOps Engineer",
       "website": "",
       "startDate": "2018-05-01",
-      "summary": "Development of CI/CD; Environment support; Ruby apps support",
+      "summary": "Development of CI/CD. Environment support. Ruby apps support.",
       "highlights": [
         "Ansible",
         "Capistrano",
@@ -122,7 +122,7 @@
       "position": "Systems Engineer (DevOps)",
       "website": "",
       "startDate": "2017-10-01",
-      "summary": "Dedicated Devops team member; Logging as a service on ELK + kafka; ChatOps; Mesos Cluster support; Weblatform support",
+      "summary": "Logging as a service on ELK + kafka. ChatOps. Mesos Cluster support. Weblatform support.",
       "highlights": [
         "Puppet",
         "Terraform",
@@ -140,7 +140,7 @@
       "position": "CNO Engineer (Cloud Native Operations)",
       "website": "",
       "startDate": "2017-04-01",
-      "summary": "CI/CD on AWS; Configuration Management; Environment support; Java Spring apps support",
+      "summary": "CI/CD on AWS. Configuration Management. Environment support. Java Spring apps support.",
       "highlights": [
         "AWS",
         "Jenkins",
@@ -155,7 +155,7 @@
       "position": "Build Engineer",
       "website": "",
       "startDate": "2016-06-01",
-      "summary": "CI/CD and Continuous Improvement; Configuration Management; Maintenance and Support",
+      "summary": "CI/CD and Continuous Improvement. Configuration Management. C# and dotNet apps support.",
       "highlights": [
         "TFS",
         "Jenkins",
@@ -175,7 +175,7 @@
       "position": "System Administrator",
       "website": "",
       "startDate": "2014-04-01",
-      "summary": "Maintenance of IT environment in medical organizations. Installed and configured DNS, DHCP, Firewall (Kerio Control), Terminal server, MS SQL Server. Organized network infrastructure, configured Cisco, D-link, TP-link. Supported medical software based on MS SQL database",
+      "summary": "Maintenance of IT environment in medical organizations. Installation/configuration of DNS, DHCP, Firewall (Kerio Control), Terminal server, MS SQL Server. Network infrastructure, configured Cisco, D-link, TP-link. Supported medical software based on MS SQL database",
       "highlights": ["DNS", "DHCP", "MS SQL", "MS Server"],
       "endDate": "2016-06-01"
     }
