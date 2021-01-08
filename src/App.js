@@ -36,7 +36,7 @@ const breadCrumb = [
     anchor: "interests-page"
   },
   {
-    name: "Tech Talks (RU)",
+    name: resume.playlist.title,
     anchor: "playlist-page"
   },
   {
@@ -73,7 +73,10 @@ export default class App extends Component {
             <InterestsPage interests={resume.interests} />
           </Fragment>
           <Fragment color="#F7F5E6" tag={breadCrumb[5].anchor}>
-            <PlaylistPage playlist={resume.playlist} />
+            <PlaylistPage
+              link={resume.playlist.link}
+              title={resume.playlist.title}
+            />
           </Fragment>
           <Fragment tag={breadCrumb[6].anchor}>
             <ContactPage email={resume.basics.email} />

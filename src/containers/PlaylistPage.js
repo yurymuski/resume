@@ -1,13 +1,13 @@
 import React from "react";
 import "./PlaylistPage.css";
 
-export default ({ playlist }) => (
+export default ({ link, title }) => (
   <div>
     <p className="headline" style={{ color: "Black" }}>
-      Tech Talks (RU)
+      {title}
     </p>
     <div className="video-container">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=PLW-NZsw8bcdJQEcYyTEQNTTnY775l_yW0" frameBorder="0" allowFullScreen title="Tech talks" className="video">
+      <iframe src={link} frameBorder="0" allowFullScreen title={title} className="video">
       </iframe>
     </div>
   </div>

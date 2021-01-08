@@ -40,10 +40,12 @@
       "position": "Lead DevOps Engineer / SRE",
       "website": "",
       "startDate": "2020-03-15",
-      "summary": "",
+      "summary": "Kubernetes based full GitOps flow for several projects (Flux CD); 100% Infrastructure as code (IaC); Production NodeJS and GO apps support",
       "highlights": [
         "Kubernetes",
+        "Flux CD",
         "Terraform",
+        "Terragrunt",
         "Ansible",
         "Prometheus",
         "Grafana",
@@ -58,7 +60,7 @@
       "position": "Senior SRE / DevOps",
       "website": "",
       "startDate": "2018-09-01",
-      "summary": "AWS infra architecture; Migration to AWS from DO; Full Devops Stack setup: CI/CD; Configuration Management; Monitoring/Alerting; Logging; NodeJS, PHP and GO apps support",
+      "summary": "AWS infra architecture; Migration to AWS from DO;  from scratch: CI/CD; Configuration Management; Monitoring/Alerting; Logging; Production NodeJS, PHP and GO apps support",
       "highlights": [
         "Terraform",
         "Ansible",
@@ -258,5 +260,9 @@
       "level": "",
       "keywords": ["2 years"]
     }
-  ]
+  ],
+  "playlist": {
+    "title": "Tech Talks (RU)",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLW-NZsw8bcdJQEcYyTEQNTTnY775l_yW0"
+  }
 }
